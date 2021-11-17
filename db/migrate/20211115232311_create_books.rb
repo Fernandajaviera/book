@@ -4,8 +4,8 @@ class CreateBooks < ActiveRecord::Migration[5.2]
       t.string :title
       t.string :author
       t.string :state
-      t.string :first_date
-      t.string :second_date
+      t.date :first_date
+      t.date :second_date
 
       t.timestamps
     end
